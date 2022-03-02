@@ -1,6 +1,6 @@
 # Parsing
 
-class Account Details
+class AccountDetails
 {
 
   public string Nickname{get;set;}
