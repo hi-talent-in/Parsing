@@ -4,20 +4,23 @@ Parsing the bank statement pdf included in the repository
 Under src/code.java we extract all the "Text" from the uploaded PDF files.
 
 You need to indentify and Assign the all imporatant field from the text and create object of AccountDetails and populate it. Than using object.ToString() metod print all the relavent information on console.
+
 public class AccountDetails
 {
 
-  public string Nickname {get; set;}
+    public string Nickname {get; set;}
   
-  public string AccountNumber {get; set;}
+    public string AccountNumber {get; set;}
   
-  ..... other property as required
-  //This is just a sample example, u will need sothing more sophisticated method
-  public string override ToString(){
+    ..... other property as required
   
-    return Nickname +" "+ AccountNumber+ " ";
+    //This is just a sample example, u will need sothing more sophisticated method
+    
+    public string override ToString(){
   
-  }
+      return Nickname +" "+ AccountNumber+ " ";
+
+    }
   
 }
 
