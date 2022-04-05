@@ -30,7 +30,7 @@ public class AccountDetails
 
 # How to run the Project: (For Eclipse IDE)
 
-1.Clone the project into to your system.
+1.Clone the project into to your system from this "Code" branch.
 
 2.Downlaod the eclipse version "2021-09" or latest version.
 
@@ -42,6 +42,6 @@ public class AccountDetails
 
 # How to run project : (For Visual Studio Code) 
 
-1. Clone the project folder.
+1. Clone the project folder from this "Code" branch.
 2. Open Project folder with Visual studio code.
 3. Run the main file name as "code.java".
