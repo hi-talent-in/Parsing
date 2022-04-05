@@ -40,7 +40,7 @@ public class AccountDetails
 
 5.Then Run the "code.java" file.
 
-#How to run project : (For Visual Studio Code) 
+# How to run project : (For Visual Studio Code) 
 
 1. Clone the project folder.
 2. Open Project folder with Visual studio code.
