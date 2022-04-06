@@ -45,3 +45,14 @@ public class AccountDetails
 1. Clone the project folder from this "milind" branch.
 2. Open Project folder with Visual studio code.
 3. Run the main file name as "code.java".
+
+
+@Milind Task
+readdata should use filepath as argument
+Task 1:
+Test cases for getBankStatementDetail 
+input: given the input path="himanshi dec 21.pdf" from readdata function
+output(BankStatementDetail): should not be null, property Name should not be empty, property Name should not be null, property Name should be "himanshi" (assert.equal("himanshi,BSD.Name), assert.isnotnull(BSD))
+Create a test which verify if the Name is not null, Hitalent.Test.Api
+
+
