@@ -1,4 +1,4 @@
-# Parsing Bank Statemnt : Problem Statment 
+# Parsing Bank Statemnt : Problem Statment  TESTING
 Parsing the bank statement pdf included in the repository
 
 Under src/code.java we extract all the "Text" from the uploaded PDF files.
@@ -11,19 +11,19 @@ public class AccountDetails
 {
 
     public string Nickname {get; set;}
-  
+
     public string AccountNumber {get; set;}
-  
+
     ..... other property as required
-  
+
     //This is just a sample example, u will need sothing more sophisticated method
-    
+
     public string override ToString(){
-  
+
       return Nickname +" "+ AccountNumber+ " ";
 
     }
-  
+
 }
 
 # How to run the Project:
@@ -37,5 +37,3 @@ public class AccountDetails
 4.(If the JDK is not set up into your system then first set the JDK.) to set path of JDK use "jdk latest version".
 
 5.Then Run the "code.java" file.
-
-
